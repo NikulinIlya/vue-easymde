@@ -28,7 +28,7 @@
   "license": "MIT",
   "dependencies": {
     "easymde": "^2.13.0",
-    "marked": "^1.2.7"
+    "marked": "^2.0.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.5.9",

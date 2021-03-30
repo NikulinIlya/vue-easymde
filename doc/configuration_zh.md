@@ -10,11 +10,13 @@
   - **bold** 可以设置为 `**` 或 `__`，默认值为 `**`。
   - **code** 可以设置为  ```` ``` ```` 或 `~~~`，默认值为 ```` ``` ````。
   - **italic** 可以设置为 `*` 或 `_`，默认值为 `*`。
+- **scrollbarStyle**
 - **element**: 要绑定的textarea元素，默认值为文档中的第一个textarea元素。
 - **forceSync**: 如果设置为 `true`，在EasyMDE中改变文本将立即同步至原textarea元素，默认值为 `false`。
 - **hideIcons**: 需要隐藏的图标名称数组，可用于隐藏默认显示的特定图标，而不完全自定义工具栏。
 - **indentWithTabs**: 如果设置为 `false`，用空格代替制表符缩进，默认值为 `true`。
 - **initialValue**: 编辑器初始值。
+- **previewImagesInEditor**
 - **insertTexts**: 通过带两个元素的数组来自定义插入文本按钮的行为，第一个元素将在光标或高亮显示之前插入，第二个元素将在之后插入。例如，链接的默认值： `['[', '](http://)']`。
   - horizontalRule
   - image

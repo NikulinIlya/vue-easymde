@@ -10,12 +10,13 @@
   - **bold**: Can be set to `**` or `__`. Defaults to `**`.
   - **code**: Can be set to  ```` ``` ```` or `~~~`.  Defaults to ```` ``` ````.
   - **italic**: Can be set to `*` or `_`. Defaults to `*`.
+- **scrollbarStyle**: Chooses a scrollbar implementation. The default is "native", showing native scrollbars. The core library also provides the "null" style, which completely hides the scrollbars. Addons can implement additional scrollbar models.
 - **element**: The DOM element for the textarea to use. Defaults to the first textarea on the page.
 - **forceSync**: If set to `true`, force text changes made in EasyMDE to be immediately stored in original textarea. Defaults to `false`.
 - **hideIcons**: An array of icon names to hide. Can be used to hide specific icons shown by default without completely customizing the toolbar.
 - **indentWithTabs**: If set to `false`, indent using spaces instead of tabs. Defaults to `true`.
 - **initialValue**: If set, will customize the initial value of the editor.
-- **previewImagesInEditor**: - EasyMDE will show preview of images, `true` by default, use `false` to disable.
+- **previewImagesInEditor**: - EasyMDE will show preview of images, `false` by default, preview for images will appear only for images on separate lines.
 - **insertTexts**: Customize how certain buttons that insert text behave. Takes an array with two elements. The first element will be the text inserted before the cursor or highlight, and the second element will be inserted after. For example, this is the default link value: `["[", "](http://)"]`.
   - horizontalRule
   - image
